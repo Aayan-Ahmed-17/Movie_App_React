@@ -41,7 +41,11 @@ const Card = () => {
           <span className="first-letter:pl-2">Summary text</span>
         </p>
       </div>
-      <img src="/dhamaal.png" alt="Movie Image" className="object-cover rounded-xl opacity-50 group-hover:opacity-100 transition-opacity duration-500" />
+      <img
+        src="/dhamaal.png"
+        alt="Movie Image"
+        className="object-cover rounded-xl opacity-50 group-hover:opacity-100 transition-opacity duration-500"
+      />
     </div>
   );
 };
